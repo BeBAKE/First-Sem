@@ -1,5 +1,7 @@
 package DSA.Recursion;
 
+//We have used a process called memoization to optimize the code.
+
 import java.util.Arrays;
 
 public class FastFibonacci {
@@ -7,7 +9,7 @@ public class FastFibonacci {
     private static long[] fiboContainer; // it is defined outsite of any function because now we can use it anywhere without
                              // any need of making it a parameter of fibonacci() .
     public static void main(String[] args) {
-        int n=5;
+        int n=50;
         fiboContainer = new long[n+1];
 
         System.out.println(fibonacci(n)+" ");
