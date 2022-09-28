@@ -31,4 +31,6 @@ public class Array {
 
        int[] age = {12,22,32,21,22};
     }
+
+
 }
