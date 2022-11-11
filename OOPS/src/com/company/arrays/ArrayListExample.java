@@ -6,7 +6,7 @@ public class ArrayListExample {
     public static void main(String[] args) {
 
         // ArrayList is a dynamic array for which we do not have to specify the size.
-        // Though arraylist are slower than the standard arrays but they are helpful where we have to modify a lot
+        // Though arraylist are slower than the standard arrays, but they are helpful where we have to modify a lot
            // of arrays.
 
         /*
