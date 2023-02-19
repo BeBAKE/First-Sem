@@ -1,0 +1,40 @@
+⛑Java dosent support multiple inheritance so , for that we use interfaces.
+ Every variable must be static final
+ By default methods declared here are abstract(only method signature and return type not the body).
+
+⛑That means all the methods in an interface are declared with
+ an empty body and are public and all fields are public, static, and final by default.
+
+⛑Interface tell us WHAT TO DO  not HOW TO DO.
+
+Syntax -
+
+public interface Name_1 {
+    static final int variable_1;
+
+    void method1();
+    void method2();
+
+}
+
+public interface Name_2 {
+    static final int variable_1;
+
+    void method1();
+    void method2();
+
+}
+
+public class ChildClass implements Name_1, Name_2 {
+    @Override
+    void mehtod1{
+        System.out.println("method 1 of child class is printed"
+    }
+    @Override
+    void method2{
+         System.out.println("method 1 of child class is printed"
+    }
+}
+
+// ❌❌ ******** NOTE -> the overridden methods in child class should have accesss
+//                  modifier with less restriction than the one from which it has been overriding. ❌❌

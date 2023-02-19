@@ -27,7 +27,7 @@ public class BoxWeight extends Box{
         super(side);
         this.weight=weight;
     }
-    public BoxWeight(BoxWeight other){
+    public BoxWeight(BoxWeight other){ //Copy constructor
         super(other);
         this.weight =other.weight;
         System.out.println("It is in the BoxWeight class"+weight);

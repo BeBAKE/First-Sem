@@ -12,7 +12,7 @@ public class Human {
         System.out.println(human.message);
     }
 
-    public static void main(String[] args){
+   public static void main(String[] args){
         Human Vivek = new Human();
         Vivek.message="Vivek's message";
 
